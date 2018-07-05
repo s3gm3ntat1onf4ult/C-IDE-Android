@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center"
+    android:orientation="vertical" >
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical" >
+			
+			<EditText
+				android:id="@+id/edCodeEditor"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:textSize="15dp"
+				android:text="void **msg = text;"
+				android:gravity="top|left"
+				android:typeface="monospace"
+				android:lines="100"
+				android:textCursorDrawable="@drawable/cursor"
+				android:inputType="textNoSuggestions|textMultiLine"/>
+			
+		</LinearLayout>
+		
+	</LinearLayout>
+</ScrollView>
